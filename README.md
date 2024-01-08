@@ -4,7 +4,7 @@ This Python program demonstrates two methods for adding two numbers:
 ### Method 1: Using Pre-defined Variables
 In this method, two pre-defined variables (`num1` and `num2`) are assigned with numeric values (in this case, `20` and `10`). The sum of these two numbers is then calculated and printed to the console using the `print` statement.
 
-### Method 2: User Input for Dynamic Calculation
+### Method 2: User Input for Dynamic Calculation hi
 In this method, the program prompts the user to input two numeric values, either integers or floating-point numbers. The `float()` function is used to convert the user input to floating-point numbers, allowing for the addition of both integer and decimal values. The sum is then calculated and displayed using the `print` statement.
 
 ### Example Output
