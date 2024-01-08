@@ -4,7 +4,7 @@ This Python program demonstrates two methods for adding two numbers:
 ### Method 1: Using Pre-defined Variables
 In this method, two pre-defined variables (`num1` and `num2`) are assigned with numeric values (in this case, `20` and `10`). The sum of these two numbers is then calculated and printed to the console using the `print` statement.
 
-### Method 2: User Input for Dynamic Calculation hi
+### Method 2: User Input for Dynamic Calculation
 In this method, the program prompts the user to input two numeric values, either integers or floating-point numbers. The `float()` function is used to convert the user input to floating-point numbers, allowing for the addition of both integer and decimal values. The sum is then calculated and displayed using the `print` statement.
 
 ### Example Output
@@ -151,3 +151,49 @@ This Python program determines whether a given integer is a prime number or not.
 For the given input number, the program determines and prints whether it is a prime number or not.
 This program provides a basic example of checking prime numbers in Python using a loop and conditional statements.
 -------------------------------------------------------------------------------------------
+
+## Python Program to Generate a Random Number
+This Python program allows the user to interactively generate random numbers between 1 and 100. The user is presented with a menu to either generate a random number or exit the program.
+
+### Method:
+1. The program utilizes the `random` module to generate random integers.
+2. Inside a `while` loop, the user is prompted to choose an option:
+   - Press "1" to generate a random number between 1 and 100.
+   - Press "2" to exit the program.
+3. If the user selects "1," a random number is generated and displayed.
+4. If the user selects "2," the program breaks out of the loop, terminating the execution.
+5. For any other input, an "invalid choice" message is displayed.
+
+### Example Output:
+The program provides an interactive experience, allowing the user to generate random numbers or exit the program based on their choice.
+This program showcases the use of loops, conditional statements, and the `random` module in Python. 
+-------------------------------------------------------------------------------------------
+
+## Python Program to Print Prime Numbers in an Interval
+This Python program takes user input for the lower and upper limits of an interval and prints all prime numbers within that range.
+
+### Method:
+1. The program prompts the user to input the lower and upper limits of the desired interval.
+2. Using a `for` loop, it iterates through the numbers in the specified range.
+3. For each number greater than 1, it checks if it is a prime number:
+   - It iterates through the numbers from 2 to the number itself.
+   - If the number is divisible by any of these values, it breaks out of the loop.
+   - If the loop completes without finding a divisor, the number is prime and is printed.
+4. The program displays all prime numbers within the specified interval.
+
+### Example Output:
+For the given input interval, the program calculates and prints all prime numbers within that range.
+This program provides a basic example of finding prime numbers using nested loops and conditional statements in Python.
+-------------------------------------------------------------------------------------------
+
+## Python Program to Convert Celsius to Fahrenheit
+This Python program converts temperature from Celsius to Fahrenheit using the formula: \( Fahrenheit = (Celsius \times \frac{9}{5}) + 32 \).
+
+### Method:
+1. The program prompts the user to input the temperature in Celsius as a floating-point number.
+2. Using the conversion formula, the program calculates the equivalent temperature in Fahrenheit.
+3. The program then displays the original temperature in Celsius and the corresponding temperature in Fahrenheit.
+
+### Example Output:
+For the given input temperature in Celsius, the program calculates and prints the equivalent temperature in Fahrenheit.
+This program serves as a basic example of unit conversion in Python, specifically converting Celsius to Fahrenheit.
