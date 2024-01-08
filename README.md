@@ -197,3 +197,42 @@ This Python program converts temperature from Celsius to Fahrenheit using the fo
 ### Example Output:
 For the given input temperature in Celsius, the program calculates and prints the equivalent temperature in Fahrenheit.
 This program serves as a basic example of unit conversion in Python, specifically converting Celsius to Fahrenheit.
+-------------------------------------------------------------------------------------------
+
+## Python Program to Find the Factorial of a Number
+This Python program calculates the factorial of a given integer using two different methods: using a loop and using a recursive function.
+
+### Method 1: Using Loop
+1. The program prompts the user to input an integer.
+2. It checks if the number is less than 0, in which case it prints that the factorial does not exist.
+3. If the number is non-negative, a `for` loop calculates the factorial iteratively.
+4. The result is displayed as the factorial of the given number.
+
+### Method 2: Using Recursion Function
+1. The program defines a recursive function `fact(n)` to calculate the factorial of a number.
+2. The function checks if the number is less than 0 and returns `None` if true.
+3. Otherwise, it returns the product of the number and the factorial of `(n-1)`.
+4. The result is displayed as the factorial of the given number.
+
+### Example Output:
+For the given input number, the program calculates and prints the factorial using both the loop and recursion methods.
+This program provides examples of both iterative and recursive approaches to finding factorials in Python.
+-------------------------------------------------------------------------------------------
+
+## Python Program to Print Multiplication Table
+This Python program generates and prints the multiplication table of a given number using both `for` and `while` loops.
+
+### Method 1: Using For Loop
+1. The program prompts the user to input a number.
+2. A `for` loop iterates from 0 to 10, calculating the product of the input number and the loop variable for each iteration.
+3. The program prints each multiplication expression and its result.
+
+### Method 2: Using While Loop
+1. The program utilizes a `while` loop to achieve the same goal.
+2. A counter variable (`n`) is initialized to 0, and the loop continues until the counter reaches 10.
+3. The multiplication expressions and results are printed within the loop, and the counter is incremented after each iteration.
+
+### Example Output:
+For the given input number, the program calculates and prints the multiplication table using both `for` and `while` loops.
+This program serves as a basic example of loop usage in Python for generating multiplication tables. 
+-------------------------------------------------------------------------------------------
