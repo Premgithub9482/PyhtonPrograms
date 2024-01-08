@@ -187,7 +187,7 @@ This program provides a basic example of finding prime numbers using nested loop
 -------------------------------------------------------------------------------------------
 
 ## Python Program to Convert Celsius to Fahrenheit
-This Python program converts temperature from Celsius to Fahrenheit using the formula: \( Fahrenheit = (Celsius \times \frac{9}{5}) + 32 \).
+This Python program converts temperature from Celsius to Fahrenheit using the formula: Fahrenheit = (Celsius*(9/5)) + 32.
 
 ### Method:
 1. The program prompts the user to input the temperature in Celsius as a floating-point number.
